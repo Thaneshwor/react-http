@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import axios from 'axios'
+import React, { Component } from 'react';
+import axios from 'axios';
 
 class PostList extends Component {
     constructor(props) {
@@ -14,7 +14,6 @@ class PostList extends Component {
     componentDidMount() {
         axios.get('https://jsonplaceholder.typicode.com/posts')
             .then(response => {
-                console.log(response)
                 this.setState({
                     posts: response.data
                 })
@@ -46,4 +45,4 @@ class PostList extends Component {
     }
 }
 
-export default PostList 
+export default PostList;

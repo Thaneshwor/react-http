@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import axios from 'axios'
+import React, { Component } from 'react';
+import axios from 'axios';
 
 class PostForm extends Component {
     constructor(props) {
@@ -52,4 +52,4 @@ class PostForm extends Component {
     }
 }
 
-export default PostForm
+export default PostForm;
